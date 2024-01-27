@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../dist/output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Press+Start+2P&family=Special+Elite&display=swap"
+        rel="stylesheet">
+    <title>Magic 8 Ball</title>
+</head>
+
+<body class="bg-restPickerBg bg-cover bg-center">
+
+    <div class="mt-24 flex justify-center">
+        <span
+            id="foodOutput" class="font-semibold font-mainFont bg-white text-black text-5xl text-center border-magicBorder border-4 border-ra me-2 py-10 rounded-lg p-5">input asian, mexican, or italian and we'll tell you where you should eat based on those categories!</span>
+    </div>
+
+    <div class="flex justify-center my-10">
+        <input style="width: 360px;" id="categories" class="rounded-lg  font-mainFont text-4xl" type="text" placeholder="input asian, chicken or italian">
+    </div>
+
+    <div class="flex justify-center">
+        <button type="button"
+            id="enterBtn" class=" flex justify-center font-mainFont font-bold bg-magicFill text-black text-4xl hover:bg-magicBorder border-magicBorder border-4 border-ra ml-2 py-2 w-80 rounded-lg ">choose for me</button>
+    </div>
+
+    <div class="mt-60">
+        <a href="../index.html"><button type="button"
+            class=" flex justify-center font-mainFont font-bold bg-magicFill text-black text-2xl hover:bg-magicBorder border-magicBorder border-4 border-ra ml-2 py-2 w-40 rounded-lg ">home</button>
+        </a>
+    </div>
+
+    <script src="../scripts/restpicker.js"></script>
+    <script src="../node_modules/flowbite/dist/flowbite.min.js"></script>
+</body>
+
+</html>

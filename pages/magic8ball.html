@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../dist/output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Press+Start+2P&family=Special+Elite&display=swap"
+        rel="stylesheet">
+    <title>Magic 8 Ball</title>
+</head>
+
+<body class="bg-magicBg bg-cover bg-right">
+
+    <div class="mt-32 flex justify-center">
+        <span
+            id="answer" class="font-semibold font-mainFont bg-white text-black text-5xl text-center border-magicBorder border-4 border-ra me-2 w-96 py-0.5 rounded-lg p-5">ask us a yes or no question and we'll tell you what you want to hear!</span>
+    </div>
+
+    <div class="flex justify-center my-10">
+        <input id="question" class="rounded-lg mx-5 font-mainFont text-4xl" type="text" placeholder="question">
+    </div>
+
+    <div class="flex justify-center">
+        <button type="button"
+            id="enterBtn" class=" flex justify-center font-mainFont font-bold bg-magicFill text-black text-4xl hover:bg-magicBorder border-magicBorder border-4 border-ra ml-2 py-2 w-80 rounded-lg ">ask away</button>
+    </div>
+
+    <div class="mt-36">
+        <a href="../index.html"><button type="button"
+            class=" flex justify-center font-mainFont font-bold bg-magicFill text-black text-2xl hover:bg-magicBorder border-magicBorder border-4 border-ra ml-2 py-2 w-40 rounded-lg ">home</button>
+        </a>
+    </div>
+
+    <script src="../scripts/magic8ball.js"></script>
+    <script src="../node_modules/flowbite/dist/flowbite.min.js"></script>
+</body>
+
+</html>

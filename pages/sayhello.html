@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../dist/output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Press+Start+2P&family=Special+Elite&display=swap"
+        rel="stylesheet">
+    <title>Magic 8 Ball</title>
+</head>
+
+<body class="bg-sayHelloBg bg-cover">
+
+    <div class="mt-24 flex justify-center">
+        <span
+            id="nameOutput" class="font-semibold font-mainFont bg-white text-black text-5xl text-center border-sayHelloBorder border-4 border-ra me-2 py-10 rounded-lg p-5">enter your name!</span>
+    </div>
+
+    <div class="flex justify-center my-10">
+        <input id="userName" class="rounded-lg  font-mainFont text-4xl" type="text" placeholder="your name">
+    </div>
+
+    <div class="flex justify-center">
+        <button type="button"
+            id="enterBtn" class=" flex justify-center font-mainFont font-bold bg-sayHelloFill text-black text-4xl hover:bg-sayHelloBorder border-sayHelloBorder border-4 border-ra ml-2 py-2 w-80 rounded-lg ">enter</button>
+    </div>
+
+    <div class="mt-60">
+        <a href="../index.html"><button type="button"
+            class=" flex justify-center font-mainFont font-bold bg-sayHelloFill text-black text-2xl hover:bg-sayHelloBorder border-sayHelloBorder border-4 border-ra ml-2 py-2 w-40 rounded-lg ">home</button>
+        </a>
+    </div>
+
+    <script src="../scripts/sayhello.js"></script>
+    <script src="../node_modules/flowbite/dist/flowbite.min.js"></script>
+</body>
+
+</html>

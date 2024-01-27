@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../dist/output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Press+Start+2P&family=Special+Elite&display=swap"
+        rel="stylesheet">
+    <title>Name & Time</title>
+</head>
+
+<body class="bg-nameTimeBg bg-cover bg-right">
+
+    <div class="mt-5 flex justify-center">
+        <span id="nameTimeOutput"
+            class="font-semibold font-mainFont bg-white text-black text-5xl text-center border-nameTimeBorder border-4 border-ra me-2 px-5 py-10 w-5/6 rounded-lg ">input
+            your name and what time you woke up!</span>
+    </div>
+
+    <div class="hidden lg:block">
+        <div class="flex justify-center my-20">
+            <input id="yourName" class="rounded-lg mx-5 font-mainFont text-4xl" type="text" placeholder="name">
+            <input id="yourTime" class="rounded-lg mx-5 font-mainFont text-4xl" type="text" placeholder="time">
+        </div>
+    </div>
+
+    <div class="block lg:hidden">
+        <div class="my-10 ml-20">
+            <input id="yourName" class="rounded-lg font-mainFont text-4xl my-7" type="text" placeholder="name">
+            <input id="yourTime" class="rounded-lg font-mainFont text-4xl my-7" type="text" placeholder="time">
+        </div>
+    </div>
+
+    <div class="flex justify-center">
+        <button type="button" id="enterBtn"
+            class=" flex justify-center font-mainFont font-bold bg-nameTimeFill text-black text-4xl hover:bg-nameTimeBorder border-nameTimeBorder border-4 border-ra ml-2 py-2 w-80 rounded-lg ">enter</button>
+    </div>
+
+    <div class="mt-60">
+        <a href="../index.html"><button type="button"
+                class=" flex justify-center font-mainFont font-bold bg-nameTimeFill text-black text-2xl hover:bg-nameTimeBorder border-nameTimeBorder border-4 border-ra ml-2 py-2 w-40 rounded-lg ">home</button>
+        </a>
+    </div>
+
+
+
+    <script src="../scripts/nameandtime.js"></script>
+    <script src="../node_modules/flowbite/dist/flowbite.min.js"></script>
+</body>
+
+</html>

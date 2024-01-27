@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../dist/output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Press+Start+2P&family=Special+Elite&display=swap"
+        rel="stylesheet">
+    <title>Madlib</title>
+</head>
+
+<body class="bg-madlibBg bg-cover bg-center">
+
+    <div class="mt-5 flex justify-center">
+        <span
+            id="madlibOutput" class="font-mainFont font-semibold bg-white text-black text-3xl text-center border-nameTimeBorder border-4 border-ra me-2 py-10 w-5/6 rounded-lg ">madlib generator!</span>
+    </div>
+
+    <div>
+    <div class="mt-10 grid lg:grid-cols-3 sm:grid-cols-1">
+        <input id="yourName" class="rounded-lg mx-5 my-2 font-mainFont text-4xl" type="text" placeholder="your name">
+        <input id="adjOne" class="rounded-lg mx-5 my-2 font-mainFont text-4xl" type="text" placeholder="adjective 1">
+        <input id="verbOne" class="rounded-lg mx-5 my-2 font-mainFont text-4xl" type="text" placeholder="verb 1">
+    </div>
+
+    <div class="my-2 grid lg:grid-cols-3 sm:grid-cols-1">
+        <input id="nounOne" class="rounded-lg mx-5 my-2 font-mainFont text-4xl" type="text" placeholder="noun 1">
+        <input id="verbTwo" class="rounded-lg mx-5 my-2 font-mainFont text-4xl" type="text" placeholder="verb 2">
+        <input id="nounTwo" class="rounded-lg mx-5 my-2 font-mainFont text-4xl" type="text" placeholder="noun 2">
+    </div>
+
+    <div class="my-2 grid lg:grid-cols-3 sm:grid-cols-1">
+        <input id="adjTwo" class="rounded-lg mx-5 my-2 font-mainFont text-4xl" type="text" placeholder="adjective 2">
+        <input id="adjThree" class="rounded-lg mx-5 my-2 font-mainFont text-4xl" type="text" placeholder="adjective 3">
+        <input id="nounThree" class="rounded-lg mx-5 my-2 font-mainFont text-4xl" type="text" placeholder="noun 3">
+    </div>
+
+    <div class="my-2 grid lg:grid-cols-3 sm:grid-cols-1">
+        <input id="anotherName" class="rounded-lg mx-5 my-2 font-mainFont text-4xl" type="text" placeholder="another name">
+        <input id="adjFour" class="rounded-lg mx-5 my-2 font-mainFont text-4xl" type="text" placeholder="adjective 4">
+    </div>
+   
+
+    <div class="flex justify-center mt-10">
+        <button type="button"
+            id="enterBtn" class=" flex justify-center font-mainFont font-bold bg-madlibsFill text-black text-4xl hover:bg-madlibsBorder border-madlibsBorder border-4 border-ra ml-2 py-2 w-80 rounded-lg ">start story</button>
+    </div>
+
+    <div class="mt-24 pb-10">
+        <a href="../index.html"><button type="button"
+            class=" flex justify-center font-mainFont font-bold bg-madlibsFill text-black text-2xl hover:bg-madlibsBorder border-madlibsBorder border-4 border-ra ml-2 py-2 w-40 rounded-lg ">home</button>
+        </a>
+    </div>
+    
+
+
+
+    <script src="../scripts/madlibs.js"></script>
+    <script src="../node_modules/flowbite/dist/flowbite.min.js"></script>
+</body>
+
+</html>
