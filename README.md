@@ -1,4 +1,4 @@
-Name: Sinatha Chan
+Name: Sinatha Chin
 Date: 1/27/2024
 Assignment: All For One - Build
 Brief Desc.:
